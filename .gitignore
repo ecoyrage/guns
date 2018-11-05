@@ -4,6 +4,7 @@
 *.idea
 target/
 logs/
+*.yml
 
 # Log file
 *.log
