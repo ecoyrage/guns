@@ -15,7 +15,8 @@ import java.util.Random;
 public class RedPacketDemo {
 
     public static void main(String[] args) {
-        List<Integer> redp=Red(10,100);
+        RedPacketDemo redPacketDemo=new RedPacketDemo();
+        List<Integer> redp=redPacketDemo.Red(10,100);
         Iterator it=redp.iterator();
         while (it.hasNext()){
             System.out.println(it.next());
@@ -27,7 +28,7 @@ public class RedPacketDemo {
      * @param totalReward 金额（*100之后的值）
      * @return
      */
-    public static List<Integer> Red(Integer remainSize,Integer totalReward) {
+    public List<Integer> Red(Integer remainSize,Integer totalReward) {
         // remainSize 剩余的红包数量
         // remainMoney 剩余的钱 ,2,BigDecimal.ROUND_HALF_UP
         List<Integer> redPacketMoney = new ArrayList<>();
