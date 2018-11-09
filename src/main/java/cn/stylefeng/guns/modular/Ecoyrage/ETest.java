@@ -8,6 +8,6 @@ package cn.stylefeng.guns.modular.Ecoyrage;
  **/
 public class ETest {
     public static void main(String[] args) {
-        System.out.println("aaa");
+        
     }
 }
