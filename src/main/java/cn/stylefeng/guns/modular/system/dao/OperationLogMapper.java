@@ -16,8 +16,8 @@
 package cn.stylefeng.guns.modular.system.dao;
 
 import cn.stylefeng.guns.modular.system.model.OperationLog;
-import com.baomidou.mybatisplus.mapper.BaseMapper;
-import com.baomidou.mybatisplus.plugins.Page;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

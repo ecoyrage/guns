@@ -9,7 +9,6 @@ package cn.stylefeng.guns.core.aop;
 import cn.stylefeng.guns.core.shiro.ShiroKit;
 import cn.stylefeng.guns.core.shiro.ShiroUser;
 import cn.stylefeng.guns.modular.system.model.Notice;
-import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
