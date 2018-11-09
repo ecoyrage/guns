@@ -20,9 +20,8 @@ import cn.stylefeng.guns.modular.system.dao.DictMapper;
 import cn.stylefeng.guns.modular.system.model.Dict;
 import cn.stylefeng.guns.modular.system.service.IDictService;
 import cn.stylefeng.roses.kernel.model.exception.ServiceException;
-import com.baomidou.mybatisplus.mapper.EntityWrapper;
-import com.baomidou.mybatisplus.mapper.Wrapper;
-import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+import com.baomidou.mybatisplus.core.conditions.Wrapper;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
