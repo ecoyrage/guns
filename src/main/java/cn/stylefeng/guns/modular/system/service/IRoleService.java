@@ -17,7 +17,7 @@ package cn.stylefeng.guns.modular.system.service;
 
 import cn.stylefeng.guns.core.common.node.ZTreeNode;
 import cn.stylefeng.guns.modular.system.model.Role;
-import com.baomidou.mybatisplus.extension.service.IService;
+import com.baomidou.mybatisplus.service.IService;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
