@@ -18,7 +18,7 @@ package cn.stylefeng.guns.modular.system.dao;
 import cn.stylefeng.guns.core.common.node.MenuNode;
 import cn.stylefeng.guns.core.common.node.ZTreeNode;
 import cn.stylefeng.guns.modular.system.model.Menu;
-import com.baomidou.mybatisplus.mapper.BaseMapper;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

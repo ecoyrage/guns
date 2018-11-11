@@ -18,7 +18,7 @@ package cn.stylefeng.guns.modular.system.service.impl;
 import cn.stylefeng.guns.modular.system.dao.NoticeMapper;
 import cn.stylefeng.guns.modular.system.model.Notice;
 import cn.stylefeng.guns.modular.system.service.INoticeService;
-import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
