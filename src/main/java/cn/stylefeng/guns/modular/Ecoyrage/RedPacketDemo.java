@@ -29,7 +29,7 @@ public class RedPacketDemo {
      * @param totalReward 金额（*100之后的值）
      * @return
      */
-    public static List<Integer> Red(Integer remainSize,Integer totalReward) {
+    public List<Integer> Red(Integer remainSize,Integer totalReward) {
         // remainSize 剩余的红包数量
         // remainMoney 剩余的钱 ,2,BigDecimal.ROUND_HALF_UP
         List<Integer> redPacketMoney = new ArrayList<>();

@@ -16,7 +16,7 @@
 package cn.stylefeng.guns.modular.system.dao;
 
 import cn.stylefeng.guns.modular.system.model.Relation;
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.baomidou.mybatisplus.mapper.BaseMapper;
 
 /**
  * <p>
