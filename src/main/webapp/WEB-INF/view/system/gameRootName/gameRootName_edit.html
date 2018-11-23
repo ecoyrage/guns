@@ -1,0 +1,31 @@
+@layout("/common/_container.html"){
+<div class="ibox float-e-margins">
+    <div class="ibox-content">
+        <div class="form-horizontal">
+
+            <div class="row">
+                <div class="col-sm-6 b-r">
+                            <#input id="id" name="主键id" value="${item.id}" underline="true"/>
+                            <#input id="gameCode" name="游戏编码" value="${item.gameCode}" underline="true"/>
+                            <#input id="gameName" name="游戏名称" value="${item.gameName}" />
+                </div>
+
+                <div class="col-sm-6">
+                            <#input id="gameTable" name="游戏对于的数据库" value="${item.gameTable}" underline="true"/>
+                            <#input id="rootRate" name="房间倍率" value="${item.rootRate}" underline="true"/>
+                            <#input id="rootName" name="房间名称" value="${item.rootName}" />
+                </div>
+            </div>
+
+            <div class="row btn-group-m-t">
+                <div class="col-sm-10">
+                    <#button btnCss="info" name="提交" id="ensure" icon="fa-check" clickFun="GameRootNameInfoDlg.editSubmit()"/>
+                    <#button btnCss="danger" name="取消" id="cancel" icon="fa-eraser" clickFun="GameRootNameInfoDlg.close()"/>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="${ctxPath}/static/modular/system/gameRootName/gameRootName_info.js"></script>
+@}
