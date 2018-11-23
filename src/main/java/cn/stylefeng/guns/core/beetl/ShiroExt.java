@@ -68,6 +68,7 @@ public class ShiroExt {
     /**
      * 验证当前用户是否属于以下任意一个角色。
      *
+     *
      * @param roleNames 角色列表
      * @return 属于:true,否则false
      */

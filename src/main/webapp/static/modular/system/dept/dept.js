@@ -18,7 +18,13 @@ Dept.initColumn = function () {
         {title: '部门简称', field: 'simplename', align: 'center', valign: 'middle', sortable: true},
         {title: '部门全称', field: 'fullname', align: 'center', valign: 'middle', sortable: true},
         {title: '排序', field: 'num', align: 'center', valign: 'middle', sortable: true},
-        {title: '备注', field: 'tips', align: 'center', valign: 'middle', sortable: true}];
+        {title: '备注', field: 'tips', align: 'center', valign: 'middle', sortable: true},
+        {
+            title: '操作', visible: true, align: 'center', valign: 'middle',
+            formatter: function (value, row, index) {
+                return '<a  href="http://www.baidu.com" target="_blank">&nbsp;查看</a>';
+            }
+        }];
 };
 
 /**
