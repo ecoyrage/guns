@@ -22,6 +22,7 @@ public class RedPacketDemo {
 //            System.out.print(",");
 //        }
 
+
     }
     /**
      *
