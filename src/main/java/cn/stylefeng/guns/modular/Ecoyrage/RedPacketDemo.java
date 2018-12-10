@@ -15,12 +15,7 @@ import java.util.Random;
 public class RedPacketDemo {
 
     public static void main(String[] args) {
-        List<Integer> redp=Red(1,2000);
-        Iterator it=redp.iterator();
-        while (it.hasNext()){
-            System.out.print(it.next());
-            System.out.print(",");
-        }
+
 
     }
     /**
