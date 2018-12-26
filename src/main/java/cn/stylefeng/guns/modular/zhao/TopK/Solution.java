@@ -1,4 +1,4 @@
-package cn.stylefeng.guns.modular.Zhao.TopK;
+package cn.stylefeng.guns.modular.zhao.TopK;
 
 import java.util.Arrays;
 
@@ -115,7 +115,7 @@ class MinHeap
         data[i] = data[j];
         data[j] = tmp;
     }
-    // 获取对中的最小的元素，根元素
+    // 获取堆中的最小的元素，根元素
     public int getRoot()
     {
         return data[0];

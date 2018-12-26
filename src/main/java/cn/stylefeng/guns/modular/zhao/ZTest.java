@@ -1,4 +1,4 @@
-package cn.stylefeng.guns.modular.Zhao;
+package cn.stylefeng.guns.modular.zhao;
 
 import com.google.gson.Gson;
 

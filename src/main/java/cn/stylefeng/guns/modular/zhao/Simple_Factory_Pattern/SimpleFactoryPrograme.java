@@ -1,4 +1,4 @@
-package cn.stylefeng.guns.modular.Zhao.Simple_Factory_Pattern;
+package cn.stylefeng.guns.modular.zhao.Simple_Factory_Pattern;
 
 import java.util.Scanner;
 
