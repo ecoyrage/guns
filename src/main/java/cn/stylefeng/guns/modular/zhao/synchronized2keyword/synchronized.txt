@@ -6,3 +6,9 @@
 
 类锁：
     指synchronized修饰静态的方法或指定锁为Class对象
+    形式1：synchronized加在static方法上
+    形式2：synchronized(*.class)代码块
+
+    本质：所谓的类锁，是Class对象的锁而已
+    用法：类锁只能在同一时刻被一个对象拥有
+

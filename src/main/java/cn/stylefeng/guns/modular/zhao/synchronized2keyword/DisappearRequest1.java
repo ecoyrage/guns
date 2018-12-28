@@ -9,6 +9,8 @@ package cn.stylefeng.guns.modular.zhao.synchronized2keyword;
 
 public class DisappearRequest1 implements Runnable {
     static DisappearRequest1 instance = new DisappearRequest1();
+    static DisappearRequest1 instance2 = new DisappearRequest1();
+
 
     static int i = 0;
 
@@ -30,7 +32,7 @@ public class DisappearRequest1 implements Runnable {
     }
 
     @Override
-    public void run() {
+    public  synchronized void run() {
         for (int j = 0; j < 100000; j++) {
             i++;
             /**
