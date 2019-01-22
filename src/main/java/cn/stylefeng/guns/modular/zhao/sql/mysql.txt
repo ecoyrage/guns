@@ -1,0 +1,39 @@
+Mysql:
+    一：数据类型：整型、浮点型、日期时间型、字符型
+       整型：
+       浮点型：
+       日期时间型：
+       字符型：
+
+       常用函数： AVG：取平均
+                ROUND:四舍五入，小数取精度
+
+
+    二：查看表：show tables;
+       查看表结构：show columns from 表名
+
+
+    三：
+        INSERT: INSERT INTO student(sname) select sname from student where sname = '李四';
+        UPDATE: 单表和多表
+        DELETE: 单表和多表
+        SELECT:
+
+
+        insert tdb_goods_cates(cate_name)  select goods_cate from tdb_goods group by goods_cate;
+
+
+
+    四：子查询
+       1、子查询指的是嵌套在查询内部，且必须始终出现在圆括号内
+       2、子查询可以包含多个关键字或条件，如DISTINCT、GROUP BY、LIMIT、函数等。
+       3、子查询的外层查询可以是SELECT,INSERT,UPDATE,SET或DO
+       4、子查询可以返回标量、一行、一列或子查询
+
+
+       （1）使用比较运算符的子查询
+       （2）IN或者NOT IN
+       （3）EXISTS的子查询
+
+
+

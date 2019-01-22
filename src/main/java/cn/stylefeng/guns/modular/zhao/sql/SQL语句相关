@@ -1,0 +1,27 @@
+1、
+
+2、第二高的薪水
+
+编写一个 SQL 查询，获取 Employee 表中第二高的薪水（Salary） 。
+
++----+--------+
+| Id | Salary |
++----+--------+
+| 1  | 100    |
+| 2  | 200    |
+| 3  | 300    |
++----+--------+
+
+例如上述 Employee 表，SQL查询应该返回 200 作为第二高的薪水。如果不存在第二高的薪水，那么查询应返回 null。
+
+select distinct Salary as SecondHighestSalary from Employee
+order by Salary desc
+limit 1 offset 1;   (解决不了返回是null的情况)
+
+
+解法：
+（1）：explain select ifnull((select distinct aaa  from test order by aaa limit 1 offset 1),null) as SecondSalary;
+（2）：explain select (select distinct bbb from test order by bbb desc limit 1 offset 1) as SecondSalary;
+（3）：explain SELECT MAX(e.bbb) AS SecondHighestSalary FROM test AS e,
+      (SELECT MAX(e1.bbb) AS MaxSalary FROM test AS e1) AS e1
+      WHERE e.bbb <> e1.MaxSalary

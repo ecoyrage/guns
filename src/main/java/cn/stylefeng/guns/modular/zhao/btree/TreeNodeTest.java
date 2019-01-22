@@ -8,13 +8,16 @@ package cn.stylefeng.guns.modular.zhao.btree;
 
 import sun.reflect.generics.tree.Tree;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class TreeNodeTest {
 
     public static void main(String[] args) {
-        int[] data = {0,1,2,3,4,5,6,7};
+        int[] data = {1,2,3,4,5,6,7,8};
         TreeNode treeNode = new TreeNode();
         treeNode.createBTree(data);
         System.out.println("先序遍历");
@@ -25,6 +28,8 @@ public class TreeNodeTest {
         System.out.println();
         System.out.println("后序遍历");
         treeNode.afterOrder(treeNode.getRoot());
+
+
     }
 }
 

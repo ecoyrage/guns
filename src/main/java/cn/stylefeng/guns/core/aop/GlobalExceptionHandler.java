@@ -123,8 +123,8 @@ public class GlobalExceptionHandler {
         return new ErrorResponseData(BizExceptionEnum.NO_PERMITION.getCode(), BizExceptionEnum.NO_PERMITION.getMessage());
     }
 
-    /**
-     * 拦截未知的运行时异常
+    /**拦截未知的运行时异常
+     *
      */
     @ExceptionHandler(RuntimeException.class)
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)

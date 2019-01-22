@@ -9,7 +9,7 @@ package cn.stylefeng.guns.modular.zhao.synchronized2keyword;
 
 public class SynchronizedObjectMethod3 implements Runnable {
 
-    static SynchronizedObjectCodeBlock2 instance = new SynchronizedObjectCodeBlock2();
+    static SynchronizedObjectMethod3 instance = new SynchronizedObjectMethod3();
 
     static int count = 0;
 
@@ -38,6 +38,7 @@ public class SynchronizedObjectMethod3 implements Runnable {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        System.out.println(Thread.currentThread().getName()+"运行结束");
 
     }
 
