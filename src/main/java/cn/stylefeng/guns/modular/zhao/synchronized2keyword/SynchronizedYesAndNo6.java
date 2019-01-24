@@ -6,6 +6,9 @@
  */
 package cn.stylefeng.guns.modular.zhao.synchronized2keyword;
 
+/**
+ * @decription 同时访问同步方法和非同步方法
+ */
 public class SynchronizedYesAndNo6 implements Runnable {
 
     static SynchronizedYesAndNo6 instance = new SynchronizedYesAndNo6();

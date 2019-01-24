@@ -1,4 +1,4 @@
-package cn.stylefeng.guns.modular.zhao.concurreny.annotions;
+package cn.stylefeng.guns.modular.zhao.highconcurrent.annotions;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.SOURCE)
-public @interface ThreadSafe {
+public @interface NotRecommand {
 
     String value() default "";
 }
